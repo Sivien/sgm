@@ -1,10 +1,9 @@
 @keyframes slidebg {
   0% {
     background-image: url(marsena.jpeg); }
-  60% {
-    background-image: url(pam.jpg); }
   100% {
-    background-image: url(IMG_4371.png); } }
+    background-image: url(pam.jpg); }
+   }
 
 *,
 *::after,
