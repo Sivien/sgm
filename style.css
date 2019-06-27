@@ -1,0 +1,147 @@
+@keyframes slidebg {
+  0% {
+    background-image: url(marsena.jpeg); }
+  60% {
+    background-image: url(pam.jpg); }
+  100% {
+    background-image: url(IMG_4371.png); } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+.header__name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15%;
+  max-width: none;
+  height: 20rem;
+  margin-top: 94px; }
+
+.BGslide {
+  width: auto;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slidebg 10s linear infinite;
+  animation-timing-function: ease-in-out;
+  background-image: url(pam.jpg); }
+
+a, p {
+  font-family: "Open Sans", sans-serif; }
+
+.contact-me-btn {
+  height: 25rem;
+  margin: 0 auto;
+  width: 65rem;
+  perspective: 80rem; }
+
+.cont-flip {
+  position: absolute;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%; }
+
+.cont-flip.flipped {
+  transform: rotateX(180deg); }
+
+.front, .back {
+  display: block;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden; }
+
+.front {
+  background-color: opaque; }
+
+.back {
+  background-color: white;
+  transform: rotateX(180deg); }
+
+.btn {
+  margin-top: 1.5rem; }
+
+.contact-form, .textarea {
+  border: .2rem solid black;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  text-transform: uppercase; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  padding: 0; }
+
+.header__name {
+  text-align: center;
+  font-size: 7rem;
+  font-family: "Great Vibes", cursive;
+  letter-spacing: .70rem; }
+
+.header--sgf {
+  color: #e95d90; }
+
+.btn {
+  font-family: "Open Sans", sans-serif; }
+
+.btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background-color: #e95d90; }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--pink {
+  background-color: #b37e91;
+  color: #000; }
+  .btn--pink::after {
+    background-color: #e95d90; }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.header {
+  height: 100vh;
+  position: relative; }
