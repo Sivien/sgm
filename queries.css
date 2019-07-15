@@ -1,0 +1,40 @@
+/* @media only screen and (max-width: 480px) */
+
+@media only screen and (max-width: 1023px) {
+    .header__name {
+        font-size: 7rem;       
+        /* letter-spacing: .40rem; */
+        margin-top: 15%;
+        height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    .header__name {
+    font-size: 6rem;   
+    /* letter-spacing: .40rem; */
+    margin: 15% 1%;    
+    }
+}
+
+@media only screen and (max-width: 480px) {
+     .header__name {
+         font-size: 4rem;
+         /* letter-spacing: .40rem; */
+         margin-top: 35%;
+     }
+
+     .btn {
+         margin-top: 10%;
+     }
+}
+
+@media only screen and (max-width: 330px) {
+     .header__name {
+         font-size: 3rem;
+         /* letter-spacing: .40rem; */
+         
+     }
+
+    }
