@@ -17,13 +17,16 @@ body {
 
 .header__name {
   position: absolute;
+  left: 0;
+  right: 0;
+  top: 15%;
   max-width: none;
   height: 20rem;
   margin-top: 10%;
 }
 
 .BGimg {
-  background-image: url(newborn.png);
+  background-image: url(../../img/newborn.png);
   height: 100%;
   background-position: center center;
   background-size: cover;
