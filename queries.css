@@ -30,10 +30,10 @@
      }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 360px) {
      .header__name {
          font-size: 3rem;
-         /* letter-spacing: .40rem; */
+         margin-top: 10%;
          
      }
 
